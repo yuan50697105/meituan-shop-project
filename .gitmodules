@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/yuan50697105/meituan-shop-server.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/yuan50697105/meituan-shop-frontend.git

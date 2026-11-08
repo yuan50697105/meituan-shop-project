@@ -1,0 +1,56 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Node
+node_modules/
+dist/
+unpackage/
+.pnpm-store/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.jks
+application-local.yml
+application-prod.yml
+
+# Runtime
+logs/
+uploads/
+data/
+*.pid
+*.seed
+
+# Test
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# OS
+desktop.ini
+
+# Local agent memory
+.remember/
